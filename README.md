@@ -29,7 +29,7 @@ MultiModelAgent/
 `-- Jev/
     |-- JevRequest.cs          Jev request and question contracts
     |-- JevResponse.cs         Jev response, answer, and usage contracts
-    `-- JevQuestionType.cs     Supported Jev question types
+    |-- JevQuestionType.cs     Supported Jev question types
 ```
 
 The project currently uses an OpenAI-compatible endpoint through `Microsoft.Agents.AI.OpenAI`.
