@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<NoWarn>$(NoWarn);MEAI001;MAAI001;OPENAI001</NoWarn>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Google.GenAI" Version="1.25.0" />
+		<PackageReference Include="Microsoft.Agents.AI.Anthropic" Version="1.24.0" />
+		<PackageReference Include="Microsoft.Agents.AI.OpenAI" Version="1.24.0" />
+	</ItemGroup>
+
+</Project>
