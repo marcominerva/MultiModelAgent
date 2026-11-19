@@ -1,6 +1,5 @@
 ﻿using System.ClientModel;
 using System.ClientModel.Primitives;
-using System.Net.Http.Json;
 using System.Runtime.CompilerServices;
 using System.Text.Encodings.Web;
 using System.Text.Json;
